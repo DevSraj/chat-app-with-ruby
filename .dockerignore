@@ -1,0 +1,33 @@
+# Ignore version control directories
+.git
+.svn
+
+# Ignore development and system files
+*.log
+*.sqlite3
+*.swp
+*.swo
+*.DS_Store
+tmp/*
+log/*
+public/assets/*
+node_modules
+
+# Ignore bundler config
+.bundle
+
+# Ignore node.js-related files
+yarn-error.log
+yarn-debug.log*
+yarn.lock
+
+# Ignore environment-specific files
+/config/database.yml
+/config/master.key
+.env
+
+# Ignore Docker-specific files
+.dockerignore
+Dockerfile
+
+# Ignore any other unnecessary files or directories specific to your project
